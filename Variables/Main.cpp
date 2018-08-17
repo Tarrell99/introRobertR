@@ -109,8 +109,67 @@ int main()
 	std::cout << "Celsius to Fahrenheit)" << std::endl;
 	std::cout << "Celsius: " << degCelsius << std::endl;
 	std::cout << "Fahrenheit: " << myver << std::endl;
+	float rectWidth = 0.0f;
+	float rectHeight = 0.0f;
+	float rectArea = 0.0f;
+
+	std::cout << "Area of a Rectangle)" << std::endl;
+	
+	std::cout << "what is the height" << std::endl;
+	std::cin >> rectHeight;
+	
+	std::cout << "what is the width" << std::endl;
+	std::cin >> rectWidth;
+
+	std::cout << "H: " << rectHeight << " , W: " << rectWidth << std::endl;
+	std::cout << "Area: " << rectHeight * rectWidth << std::endl;
 
 
+	float a, b, c, d, e;
+	float avg;
+	avg = a = b = c = d = e = 0.0f;
+	std::cout << "Average of Five)" << std::endl;
+
+	
+	std::cout << " What is a" << std::endl;
+	std::cin >> a;
+
+	std::cout << " What is b" << std::endl;
+	std::cin >> b;
+
+	std::cout << " What is c" << std::endl;
+	std::cin >> c;
+
+	std::cout << " What is d" << std::endl;
+	std::cin >> d;
+
+	std::cout << " What is e" << std::endl;
+	std::cin >> e;
+
+	std::cout << a << "," << b << "," << c << "," << d << "," << e << std::endl;
+	std::cout << "avg: " << ( a + b + c + d + e ) / 5 << std::endl;
+
+	std::cout << "Number Swap)" << std::endl;
+	
+	int r;
+	int m;
+	
+	std::cout << "r is..." << std::endl;
+	std::cin >> r;
+	
+	std::cout << "m is..." << std::endl;
+	std::cin >> m;
+
+	std::cout << "r is " << m << std::endl;
+	std::cout << "m is " << r << std::endl;
+
+	int age;
+	std::cout << " what intarnaton how old are you" << std::endl;
+	std::cin >> age;
+
+	
+	std::cout << "Howdy! You are " << age << " years old!" << std::endl;
+	std::cout << "you about " << (12 * age) << " months" << std::endl;
 
 	system("pause");
 
